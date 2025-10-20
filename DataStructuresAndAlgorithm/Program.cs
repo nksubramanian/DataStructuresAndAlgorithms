@@ -3,10 +3,12 @@ using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
 
-StringExercise stringExercise = new StringExercise();
-stringExercise.main();
+NumberExercise numberExercise = new NumberExercise();
+numberExercise.main();
 
 /*
+StringExercise stringExercise = new StringExercise();
+stringExercise.main();
 var test = new StackInsertion();
 test.main();
 QueueReversal queueReversal = new QueueReversal();
