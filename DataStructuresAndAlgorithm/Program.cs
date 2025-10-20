@@ -2,10 +2,11 @@
 using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
-var test = new StackInsertion();
-test.main();
+
 
 /*
+var test = new StackInsertion();
+test.main();
 QueueReversal queueReversal = new QueueReversal();
 queueReversal.main();
 */
