@@ -2,7 +2,8 @@
 using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
-
+NumberPalindrome numberPalindrome = new NumberPalindrome();
+numberPalindrome.main();
 
 /*
 var test = new StackInsertion();
