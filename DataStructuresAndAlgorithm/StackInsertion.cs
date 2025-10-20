@@ -22,6 +22,19 @@ namespace DataStructuresAndAlgorithm
         }
 
 
+        void reverseMyStack(Stack<int> stack)
+        {
+            if (stack.Count == 0)
+                return;
+            else
+            {
+                var poppedElement = stack.Pop();
+                reverseMyStack(stack);
+                InsertAtBottom(stack, poppedElement);
+            }
+        }
+
+
         void printMyStack(Stack<int> stack)
         {
             var stackCount = stack.Count;
@@ -39,7 +52,7 @@ namespace DataStructuresAndAlgorithm
             stack.Push(3);
             stack.Push(2);
             stack.Push(1);
-            InsertAtBottom(stack, 4);
+            reverseMyStack(stack);
             printMyStack(stack);    
 
 
