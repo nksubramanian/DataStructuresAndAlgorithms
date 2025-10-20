@@ -19,7 +19,6 @@ namespace DataStructuresAndAlgorithm
             {
                 return (input[0] == input[input.Length - 1]) &&
                     isPalindrome(input.Substring(1, input.Length - 2));
-
             }
         }
 
