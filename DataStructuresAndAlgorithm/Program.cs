@@ -2,14 +2,17 @@
 using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
-NumberPalindrome numberPalindrome = new NumberPalindrome();
-numberPalindrome.main();
+
+StringExercise stringExercise = new StringExercise();
+stringExercise.main();
 
 /*
 var test = new StackInsertion();
 test.main();
 QueueReversal queueReversal = new QueueReversal();
 queueReversal.main();
+NumberPalindrome numberPalindrome = new NumberPalindrome();
+numberPalindrome.main();
 */
 
 
