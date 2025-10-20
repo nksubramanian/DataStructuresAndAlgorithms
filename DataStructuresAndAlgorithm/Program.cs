@@ -3,10 +3,12 @@ using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
 
-NumberExercise numberExercise = new NumberExercise();
-numberExercise.main();
+var sortableStack = new SortableStack();
+sortableStack.main();
 
 /*
+NumberExercise numberExercise = new NumberExercise();
+numberExercise.main();
 StringExercise stringExercise = new StringExercise();
 stringExercise.main();
 var test = new StackInsertion();
