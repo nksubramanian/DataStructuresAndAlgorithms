@@ -3,10 +3,14 @@ using DataStructuresAndAlgorithm;
 
 Console.WriteLine("Hello, World!");
 
-var sortableStack = new SortableStack();
-sortableStack.main();
+var permutations = new Permutations();
+permutations.main();
+
+Console.WriteLine("subbu");
 
 /*
+var sortableStack = new SortableStack();
+sortableStack.main();
 NumberExercise numberExercise = new NumberExercise();
 numberExercise.main();
 StringExercise stringExercise = new StringExercise();
